@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Greenigma</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Greenigma</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home<br></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4">
+            <h1 data-aos="fade-up">Choose Sustainability Every Day</h1>
+            <blockquote data-aos="fade-up" data-aos-delay="100">
+              <p>“A single reusable cup can save hundreds of paper cups from polluting our planet. Small choices lead to big changes.”</p>
+            </blockquote>
+            
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="https://www.youtube.com/watch?v=jfsWI8XgQyo" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="why-us" class="why-us section">
+
+      <div class="container">
+
+        <div class="row g-0">
+
+          <div class="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/why-us-bg.jpg" alt="">
+          </div>
+
+          <div class="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "centeredSlides": true,
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Say No to Paper Cups</h3>
+                    <h4 class="mb-3">Make a difference by choosing reusable alternatives.</h4>
+                    <p>Did you know that over 500 billion paper cups are discarded every year, contributing to microplastic pollution and landfill waste? Together, we can reduce this number by adopting sustainable practices. Start small—ditch single-use cups today!</p>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Health Risks of Paper Cups</h3>
+                    <h4 class="mb-3">Protect your health while protecting the environment.</h4>
+                    <p>Most paper cups are lined with chemicals like BPA and phthalates, which can leach into your beverages and harm your health. Switching to reusable or biodegradable options is better for you and the planet.</p>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Track Your Impact</h3>
+                    <h4 class="mb-3">Every small action counts towards a sustainable future.</h4>
+                    <p>Log how many paper cups you avoid and see the environmental savings you contribute to. From reducing CO₂ emissions to saving water, track your impact and inspire others to join the movement.</p>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Join the Movement</h3>
+                    <h4 class="mb-3">Collaborate to create a sustainable community.</h4>
+                    <p>Be a part of the solution by promoting reusable alternatives and inspiring behavioral change on campus. Share your progress, challenge your friends, and work together for a greener tomorrow.</p>
+                  </div>
+                </div>
+                
+                
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+<section id="services" class="services section">
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Our Initiatives</h2>
+    <p>Discover how we’re tackling the dual threats of paper cup pollution and health risks.</p>
+  </div>
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon flex-shrink-0"><i class="bi bi-cup-hot" style="color: #f57813;"></i></div>
+        <div>
+          <h4 class="title">Awareness Campaigns</h4>
+          <p class="description">Educating the community about the harmful effects of paper cup usage on health and the environment.</p>
+          <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon flex-shrink-0"><i class="bi bi-graph-up-arrow" style="color: #15a04a;"></i></div>
+        <div>
+          <h4 class="title">Impact Tracking</h4>
+          <p class="description">A system to track and visualize the reduction in paper cup usage and its environmental benefits.</p>
+          <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon flex-shrink-0"><i class="bi bi-trophy" style="color: #d90769;"></i></div>
+        <div>
+          <h4 class="title">Gamification</h4>
+          <p class="description">Encouraging sustainable behavior through challenges, rewards, and leaderboards.</p>
+          <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+        <div class="icon flex-shrink-0"><i class="bi bi-people" style="color: #15bfbc;"></i></div>
+        <div>
+          <h4 class="title">Community Building</h4>
+          <p class="description">Creating a platform for stakeholders to collaborate on sustainable practices.</p>
+          <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+        <div class="icon flex-shrink-0"><i class="bi bi-recycle" style="color: #f5cf13;"></i></div>
+        <div>
+          <h4 class="title">Sustainable Alternatives</h4>
+          <p class="description">Promoting reusable cups and eco-friendly options to replace paper cups.</p>
+          <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+        <div class="icon flex-shrink-0"><i class="bi bi-lightbulb" style="color: #1335f5;"></i></div>
+        <div>
+          <h4 class="title">Innovation Challenges</h4>
+          <p class="description">Hosting hackathons and events to inspire innovative solutions for sustainability.</p>
+          <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="call-to-action" class="call-to-action section dark-background">
+
+  <img src="assets/img/cta-bg.jpg" alt="Background Image">
+
+  <div class="container">
+    <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+      <div class="col-xl-10">
+        <div class="text-center">
+          <h3>Take Action for a Sustainable Future</h3>
+          <p>By reducing paper cup usage, you can help fight plastic pollution, safeguard your health, and promote sustainability. Join us in making a difference—together we can create a cleaner, greener world.</p>
+          <a class="cta-btn" href="#">Join the Movement</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section id="features" class="features section">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="mb-0">Powerful Features for</h3>
+        <h3>Your Sustainability Journey</h3>
+
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="icon-list d-flex">
+              <i class="bi bi-eye" style="color: #ff8b2c;"></i>
+              <span>Real-time Impact Tracking</span>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="icon-list d-flex">
+              <i class="bi bi-infinity" style="color: #5578ff;"></i>
+              <span>Gamification to Drive Engagement</span>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="icon-list d-flex">
+              <i class="bi bi-mortarboard" style="color: #e80368;"></i>
+              <span>Educational Resources</span>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="icon-list d-flex">
+              <i class="bi bi-star" style="color: #ffa76e;"></i>
+              <span>Reward-Based Motivation</span>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="icon-list d-flex">
+              <i class="bi bi-x-diamond" style="color: #11dbcf;"></i>
+              <span>Personalized Sustainability Insights</span>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="icon-list d-flex">
+              <i class="bi bi-camera-video" style="color: #4233ff;"></i>
+              <span>Interactive Community Platform</span>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="icon-list d-flex">
+              <i class="bi bi-brightness-high" style="color: #29cc61;"></i>
+              <span>Incentives for Reduced Paper Cup Usage</span>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="icon-list d-flex">
+              <i class="bi bi-activity" style="color: #ff5828;"></i>
+              <span>Collaborative Sustainability Challenges</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 position-relative" data-aos="zoom-out" data-aos-delay="200">
+        <div class="phone-wrap">
+          <img src="assets/img/iphone.png" alt="Sustainability App" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="details">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <h4>Track Your Environmental Impact</h4>
+          <p>Our platform allows users to track their progress in reducing paper cup usage and its positive environmental effects. Stay motivated with personalized feedback and rewards.</p>
+          <a href="#about" class="btn-get-started">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section id="recent-posts" class="recent-posts section">
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Recent Blog Posts</h2>
+  </div>
+
+  <div class="container">
+
+    <div class="row gy-5">
+
+      <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
+          <div class="meta">
+            <span class="post-date">Tue, December 12</span>
+            <span class="post-author"> / Priya Mehta</span>
+          </div>
+          <h3 class="post-title">The Role of Sustainability in Modern Business</h3>
+          <p>As businesses evolve, sustainability practices are becoming key to long-term success. We explore how sustainable strategies can boost profitability while preserving the environment...</p>
+          <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
+          <div class="meta">
+            <span class="post-date">Fri, September 05</span>
+            <span class="post-author"> / Arjun Patel</span>
+          </div>
+          <h3 class="post-title">Effective Ways to Reduce Your Carbon Footprint</h3>
+          <p>From energy-efficient practices to reducing waste, learn simple ways to minimize your impact on the planet and create a more sustainable lifestyle...</p>
+          <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
+          <div class="meta">
+            <span class="post-date">Tue, July 27</span>
+            <span class="post-author"> / Neha Sharma</span>
+          </div>
+          <h3 class="post-title">Sustainable Packaging: A Growing Trend in India</h3>
+          <p>With increasing awareness about environmental issues, many businesses in India are transitioning to sustainable packaging solutions. Discover why this trend is gaining momentum...</p>
+          <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/blog/blog-4.jpg" class="img-fluid" alt=""></div>
+          <div class="meta">
+            <span class="post-date">Tue, Sep 16</span>
+            <span class="post-author"> / Rajesh Kumar</span>
+          </div>
+          <h3 class="post-title">Green Initiatives in the Indian Corporate Sector</h3>
+          <p>From renewable energy to waste management, the corporate sector in India is adopting innovative green practices. This post dives into some of the most successful initiatives...</p>
+          <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Greenigma</span>
+            </a>
+            <p>Greenigma is committed to creating sustainable solutions for a greener future. Our mission is to raise awareness and promote eco-friendly practices across industries and communities in India and beyond.</p>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+    
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+<ul>
+  <li><a href="#">Sustainable Design</a></li>
+  <li><a href="#">Eco-friendly Web Development</a></li>
+  <li><a href="#">Green Marketing</a></li>
+  <li><a href="#">Renewable Energy Consulting</a></li>
+  <li><a href="#">Smart Agriculture Solutions</a></li>
+  <li><a href="#">Circular Economy Strategies</a></li>
+</ul>
+
+          </div>
+    
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>Vadodara</p>
+            <p>Gujarat 391760</p>
+            <p>India</p>
+            <p class="mt-4"><strong>Phone:</strong> <span>+91 76220813224</span></p>
+            <p><strong>Email:</strong> <span>nirantchavda265@gmial.com</span></p>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="container copyright text-center">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Greenigma</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
